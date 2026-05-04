@@ -1,0 +1,11 @@
+.annocuements{
+    background-color: rgb(228, 242, 242) !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: black;
+    }
+}

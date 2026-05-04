@@ -67,8 +67,8 @@ export default function Contact() {
     <div className="container contact">
       <div className="info">
         <h2>Get in Touch</h2>
-        <p>Phone: 091234567</p>
-        <p>Email: saleshop@gmail.com</p>
+        <p>Phone: +61 493 385 869</p>
+        <p>Email: RSTSMM.com@gmail.com</p>
         <div className="social-icons">
               <a href="https://www.tiktok.com/@rstsmm?_t=ZS-90ivYWzqCuY&_r=1">
                 <img

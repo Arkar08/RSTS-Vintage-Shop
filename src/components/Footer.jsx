@@ -14,8 +14,7 @@ export default function Footer() {
         <div className="footer-section">
           <h2>RSTS Vintage Shop</h2>
           <p>
-            We provide best quality products at affordable prices.
-            Customer satisfaction is our first priority.
+            Worldwide shipping with tracking.Customer satisfaction is our top priority.
           </p>
         </div>
 
@@ -28,16 +27,21 @@ export default function Footer() {
             <li><Link to="/category">Category</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
+
+          <h3>Policy</h3>
+          <ul>
+            <li><Link to="/policy">Privacy Policy</Link></li>
+          </ul>
         </div>
 
         {/* CATEGORIES */}
         <div className="footer-section">
           <h3>Categories</h3>
           <ul>
-            <li>Watches And Clock</li>
-            <li>Golf Clubs</li>
-            <li>Games And Camera</li>
-            <li>Figure And Toys</li>
+            <li>Watched & Jewellery</li>
+            <li>Sporting Goods</li>
+            <li>Games & Camera</li>
+            <li>Antique & Vintage items</li>
           </ul>
         </div>
 
@@ -45,8 +49,8 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Contact Info</h3>
           <p>📍Shop1,Mount Gravatt Sunday Market,Trash and Treasure,1644 Logan Rd,Mt Gravatt, 4122,QLD</p>
-          <p>📞 09 123 456 789</p>
-          <p>✉️ saleshop@gmail.com</p>
+          <p>📞 +61 493 385 869</p>
+          <p>✉️ RSTSMM.com@gmail.com</p>
           <div className="social-icons">
               <a href="https://www.tiktok.com/@rstsmm?_t=ZS-90ivYWzqCuY&_r=1">
                 <img
