@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding:20px;
-  background: #0d47a1;
+  background: #000;
   color: #fff;
   position: sticky;
   top: 0;
@@ -79,7 +79,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background: #0d47a1;
+    background: #000;
     width: 100%;
     flex-direction: column;
     align-items: center;

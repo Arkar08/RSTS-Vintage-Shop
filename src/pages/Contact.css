@@ -15,14 +15,14 @@
 /* LEFT INFO */
 .info {
   flex: 1;
-  background: #e3f2fd;
+  background:#e1dfdf;
   padding: 25px;
   border-radius: 12px;
 }
 
 .info h2 {
   margin-bottom: 15px;
-  color: #0d47a1;
+  color: #000;
 }
 
 .info p {
@@ -50,7 +50,7 @@
 
 .form input:focus,
 .form textarea:focus {
-  border-color: #1976d2;
+  border-color: #000;
 }
 
 /* TEXTAREA */
@@ -61,7 +61,7 @@
 
 /* BUTTON */
 .btnEnd {
-  background: #1976d2;
+  background: #000;
   color: #fff;
   border: none;
   padding: 12px;
@@ -76,7 +76,7 @@
 
 
 .btnEnd:hover {
-  background: #1565c0;
+  background: #000;
 }
 
 /* RESPONSIVE 🔥 */

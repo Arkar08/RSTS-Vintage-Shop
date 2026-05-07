@@ -1,5 +1,5 @@
 .annocuements{
-    background-color: rgb(228, 242, 242) !important;
+    background-color: rgb(216, 217, 219) !important;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -7,5 +7,39 @@
 
     p{
         color: black;
+        font-size: 14px;
     }
+}
+@media (max-width: 992px) {
+  .annocuements{
+        padding: 5px;
+        p{
+            color: black;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+   .annocuements{
+        padding: 5px;
+        p{
+            color: black;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+   .annocuements{
+        padding: 5px;
+        p{
+            color: black;
+            font-size: 13px;
+        }
+    }
+}
+.social-icons{
+  margin-top: 0px;
+  margin-left: 10px;
 }

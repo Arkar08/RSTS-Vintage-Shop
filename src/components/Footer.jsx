@@ -16,22 +16,12 @@ export default function Footer() {
           <p>
             Worldwide shipping with tracking.Customer satisfaction is our top priority.
           </p>
-        </div>
-
-        {/* QUICK LINKS */}
-        <div className="footer-section">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/category">Category</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-
-          <h3>Policy</h3>
-          <ul>
-            <li><Link to="/policy">Privacy Policy</Link></li>
-          </ul>
+          <div className="policy">
+            <h3 className="policyText">Policy</h3>
+            <ul>
+              <li className="policyText"><Link to="/policy">Privacy Policy</Link></li>
+            </ul>
+          </div>
         </div>
 
         {/* CATEGORIES */}
@@ -52,7 +42,7 @@ export default function Footer() {
           <p>📞 +61 493 385 869</p>
           <p>✉️ RSTSMM.com@gmail.com</p>
           <div className="social-icons">
-              <a href="https://www.tiktok.com/@rstsmm?_t=ZS-90ivYWzqCuY&_r=1">
+              <a href="https://www.tiktok.com/@rstsmm?_t=ZS-90ivYWzqCuY&_r=1" className="tiktokIcon">
                 <img
                   src={tiktok}
                   alt="tiktokImage"
