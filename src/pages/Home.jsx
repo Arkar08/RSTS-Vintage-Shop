@@ -3,6 +3,10 @@ import homeImg from "../assets/home.png";
 import './Home.css';
 import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
+import watch from '/watch.png'
+import golf from '/golf-clubs.png'
+import game from '/game-camera.png'
+import figure from '/figure-toys.png'
 
 export default function Home() {
   const {pathname} = useLocation()
@@ -24,10 +28,10 @@ export default function Home() {
         <h2>Featured Categories</h2>
 
         <div className="grid">
-          <Card title="Watches And Clock" image={homeImg} />
-          <Card title="Golf Clubs" image={homeImg} />
-          <Card title="Games And Camera" image={homeImg} />
-          <Card title="Figure And Toys" image={homeImg} />
+          <Card title="Watches And Clock" image={watch} />
+          <Card title="Golf Clubs" image={golf} />
+          <Card title="Games And Camera" image={game} />
+          <Card title="Figure And Toys" image={figure} />
         </div>
       </div>
   );
