@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import tiktok from "../assets/tiktok.png";
 import ebay from "../assets/ebay.png";
 import facebook from "../assets/facebook.png";
-import social from "../assets/social.png";
+import instagram from '../assets/instagram.png'
 
 export default function Contact() {
   const { pathname } = useLocation();
@@ -67,7 +67,6 @@ export default function Contact() {
     <div className="container contact">
       <div className="info">
         <h2>Get in Touch</h2>
-        <p>Phone: +61 493 385 869</p>
         <p>Email: RSTSMM.com@gmail.com</p>
         <div className="social-icons">
               <a href="https://www.tiktok.com/@rstsmm?_t=ZS-90ivYWzqCuY&_r=1">
@@ -91,10 +90,10 @@ export default function Contact() {
                   className="imageList"
                 />
               </a>
-              <a href="https://wa.me/61493385869">
+              <a href="https://www.instagram.com/rsts_vintage?igsh=YjE4c3N0anl1amRl&utm_source=qr">
                 <img
-                  src={social}
-                  alt="social"
+                  src={instagram}
+                  alt="instagram"
                   className="imageList"
                 />
               </a>

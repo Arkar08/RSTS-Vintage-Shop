@@ -5,7 +5,7 @@ import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
 import watch from '/watch.png'
 import golf from '/golf-clubs.png'
-import game from '/game-camera.png'
+import jewelery from '/jewelery.png'
 import figure from '/figure-toys.png'
 
 export default function Home() {
@@ -28,10 +28,10 @@ export default function Home() {
         <h2>Featured Categories</h2>
 
         <div className="grid">
-          <Card title="Watches And Clock" image={watch} />
+          <Card title="Watches And Clocks" image={watch} />
+          <Card title="Jewelry" image={jewelery} />
           <Card title="Golf Clubs" image={golf} />
-          <Card title="Games And Camera" image={game} />
-          <Card title="Figure And Toys" image={figure} />
+          <Card title="Figures And Toys" image={figure} />
         </div>
       </div>
   );

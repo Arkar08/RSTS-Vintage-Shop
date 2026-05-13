@@ -25,12 +25,12 @@ export default function Category() {
       <h1>Categories</h1>
 
       <div className="grid">
-        <Card title="Watches And Clock" image={watch} />
-        <Card title="Japanese Knives" image={japanese} />
-        <Card title="Games And Camera" image={game} />
+        <Card title="Watches And Clocks" image={watch} />
+        <Card title="Japanese Kitchen Knives" image={japanese} />
+        <Card title="Games And Cameras" image={game} />
         <Card title="Binoculars" image={binocular} />
         <Card title="Golf Clubs" image={golf} />
-        <Card title="Figure And Toys" image={figure} />
+        <Card title="Figures And Toys" image={figure} />
         <Card title="Fragrance" image={fragrance} />
         <Card title="Hand Tools" image={handtool} />
         <Card title="Jewelry" image={jewelery} />
